@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Installer Wizard — Setup Helper | ChildGuard Family Safety</title>
+<meta name="description" content="The ChildGuard Installer Wizard is a focused setup component that helps authorized parents install ChildGuard on a compatible Android device.">
+<meta name="theme-color" content="#1769e0">
+<link rel="icon" type="image/png" href="assets/img/parent_controller_logo.png">
+<link rel="apple-touch-icon" href="assets/img/parent_controller_logo.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Installer Wizard — ChildGuard Setup Helper">
+<meta property="og:description" content="The official ChildGuard Installer Wizard helps authorized parents set up ChildGuard on Android.">
+<meta property="og:image" content="assets/img/parent_controller_logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Installer Wizard — ChildGuard Setup Helper">
+<meta name="twitter:description" content="Official setup helper for installing ChildGuard on Android.">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script defer src="assets/js/config.js"></script>
+</head>
+<body>
+
+<nav class="nav" role="navigation" aria-label="Main navigation">
+ <div class="container nav-inner">
+  <a class="brand" href="index.html" aria-label="ChildGuard home">
+   <img class="logo" src="assets/img/parent_controller_logo.png" alt="ParentGuard logo" width="38" height="38">
+   <span>ChildGuard</span>
+  </a>
+  <button class="menu-btn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">☰</button>
+  <div class="nav-links" id="nav-links" role="menubar">
+   <a href="index.html" role="menuitem">Home</a>
+   <a href="index.html#products" role="menuitem">Products</a>
+   <a href="index.html#features" role="menuitem">Features</a>
+   <a href="index.html#how-it-works" role="menuitem">How it works</a>
+   <a href="data-permissions.html" role="menuitem">Data &amp; permissions</a>
+   <a href="support.html" role="menuitem">Support</a>
+   <a class="nav-cta" href="index.html#download" role="menuitem">Get started</a>
+  </div>
+ </div>
+</nav>
+
+
+<section class="page-hero" aria-labelledby="page-heading">
+ <div class="container">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+   <a href="index.html">Home</a> / <a href="index.html#products">Products</a> / Installer Wizard
+  </nav>
+  <span class="eyebrow">Installation helper</span>
+  <h1 id="page-heading">ChildGuard Installer Wizard</h1>
+  <p class="lead">A focused setup component that helps an authorized parent install and configure the supervised-device companion on a compatible Android device.</p>
+  <div class="hero-actions">
+   <a class="btn btn-primary" data-wizard-url href="#">Get the official Wizard &rarr;</a>
+   <a class="btn btn-secondary" href="support.html">Installation help</a>
+  </div>
+ </div>
+</section>
+
+<section class="section" aria-labelledby="steps-heading">
+ <div class="container">
+  <div class="section-head center">
+   <span class="eyebrow">Setup steps</span>
+   <h2 id="steps-heading">How to use the Installer Wizard.</h2>
+  </div>
+  <div class="process">
+   <div class="step reveal">
+    <div class="step-num" aria-hidden="true">1</div>
+    <h3>Start from the family setup</h3>
+    <p class="muted small">Use ParentGuard's pairing/setup flow and follow the displayed instructions.</p>
+   </div>
+   <div class="step reveal">
+    <div class="step-num" aria-hidden="true">2</div>
+    <h3>Download the official package</h3>
+    <p class="muted small">Use only the official Wizard URL published by ChildGuard. Do not use unofficial mirrors.</p>
+   </div>
+   <div class="step reveal">
+    <div class="step-num" aria-hidden="true">3</div>
+    <h3>Android authorization</h3>
+    <p class="muted small">Android may require permission to install apps from the source used for the download.</p>
+   </div>
+   <div class="step reveal">
+    <div class="step-num" aria-hidden="true">4</div>
+    <h3>Finish supervised setup</h3>
+    <p class="muted small">Open ChildGuard and complete the pairing and permission setup on the supervised device.</p>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="section section-alt" aria-labelledby="info-heading">
+ <div class="container prose">
+  <div class="callout warning" role="note">
+   <strong>Security note:</strong> Never install an APK obtained from an unofficial mirror or a modified copy. Use only the official ChildGuard download URL and verify the package source.
+  </div>
+  <h2 id="info-heading">Why a separate Wizard exists</h2>
+  <p>The Wizard is an installation helper, not a replacement for ParentGuard and not the component that provides family monitoring services. Keeping these responsibilities separate makes the product architecture easier to explain and support.</p>
+  <h2>APK distribution</h2>
+  <p>The production website is configured so you can change the Wizard URL in <code>assets/js/config.js</code> without rewriting the site. Connect the button to your real signed release only.</p>
+ </div>
+</section>
+
+
+<footer class="footer" role="contentinfo">
+ <div class="container">
+  <div class="footer-grid">
+   <div>
+    <a class="brand" href="index.html" aria-label="ChildGuard home">
+     <img class="logo" src="assets/img/parent_controller_logo.png" alt="ParentGuard logo" width="32" height="32" loading="lazy">
+     <span>ChildGuard</span>
+    </a>
+    <p class="footer-desc">Family-focused device safety and parental controls designed around transparency, consent, and responsible supervision.</p>
+    <p class="footer-contact">Support: <a data-support-email href="#">parentguard.support@gmail.com</a></p>
+   </div>
+   <div>
+    <div class="footer-title">Products</div>
+    <div class="footer-links">
+     <a href="parent.html">ParentGuard</a>
+     <a href="child.html">ChildGuard</a>
+     <a href="wizard.html">Installer Wizard</a>
+    </div>
+   </div>
+   <div>
+    <div class="footer-title">Trust &amp; Privacy</div>
+    <div class="footer-links">
+     <a href="privacy.html">Privacy Policy</a>
+     <a href="terms.html">Terms of Service</a>
+     <a href="data-permissions.html">Data &amp; Permissions</a>
+     <a href="monitoring-disclosure.html">Monitoring Disclosure</a>
+     <a href="account-deletion.html">Account Deletion</a>
+    </div>
+   </div>
+   <div>
+    <div class="footer-title">Help</div>
+    <div class="footer-links">
+     <a href="support.html">Support Center</a>
+     <a href="index.html#faq">FAQ</a>
+     <a href="support.html#contact">Contact</a>
+    </div>
+   </div>
+  </div>
+  <div class="footer-bottom">
+   <span>&copy; <span data-year></span> ChildGuard. All rights reserved.</span>
+   <span>Nadi Darwaja, Kapadvanj, Kheda, Gujarat, India</span>
+  </div>
+ </div>
+</footer>
+
+</body>
+</html>
