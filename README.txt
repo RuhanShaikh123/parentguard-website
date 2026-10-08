@@ -1,5 +1,5 @@
-CHILDGUARD PRODUCTION WEBSITE
-=============================
+PARENTGUARD PRODUCTION WEBSITE
+==============================
 
 This package is a responsive, white-background, production-oriented static website for:
 - ParentGuard (parent app)

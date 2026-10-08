@@ -3,18 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Data &amp; Permissions | ChildGuard Family Safety</title>
-<meta name="description" content="A plain-language map of the sensitive Android capabilities used by ChildGuard and ParentGuard, and why each permission may be requested.">
+<title>ParentGuard — Data &amp; Permissions</title>
+<meta name="description" content="A plain-language map of sensitive Android capabilities requested by ChildGuard within the ParentGuard family safety platform.">
 <meta name="theme-color" content="#1769e0">
 <link rel="icon" type="image/png" href="assets/img/parent_controller_logo.png">
 <link rel="apple-touch-icon" href="assets/img/parent_controller_logo.png">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Data &amp; Permissions | ChildGuard Family Safety">
-<meta property="og:description" content="Plain-language map of sensitive Android permissions used by ChildGuard — what each capability is, why it's needed, and the conditions involved.">
+<meta property="og:title" content="ParentGuard — Data &amp; Permissions">
+<meta property="og:description" content="Plain-language map of sensitive Android permissions used by ChildGuard within the ParentGuard family safety platform.">
 <meta property="og:image" content="assets/img/parent_controller_logo.png">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Data &amp; Permissions | ChildGuard">
-<meta name="twitter:description" content="Permission-by-permission transparency guide for the ChildGuard family-safety platform.">
+<meta name="twitter:title" content="ParentGuard — Data &amp; Permissions">
+<meta name="twitter:description" content="Plain-language map of sensitive Android permissions used by ChildGuard within ParentGuard.">
 <link rel="stylesheet" href="assets/css/styles.css">
 <script defer src="assets/js/config.js"></script>
 </head>
@@ -22,9 +22,9 @@
 
 <nav class="nav" role="navigation" aria-label="Main navigation">
  <div class="container nav-inner">
-  <a class="brand" href="index.html" aria-label="ChildGuard home">
+  <a class="brand" href="index.html" aria-label="ParentGuard home">
    <img class="logo" src="assets/img/parent_controller_logo.png" alt="ParentGuard logo" width="38" height="38">
-   <span>ChildGuard</span>
+   <span>ParentGuard</span>
   </a>
   <button class="menu-btn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">☰</button>
   <div class="nav-links" id="nav-links" role="menubar">
@@ -47,7 +47,7 @@
   </nav>
   <span class="eyebrow">Transparency center</span>
   <h1 id="page-heading">Data &amp; Permissions</h1>
-  <p class="lead">A plain-language map of the sensitive Android capabilities used by the ChildGuard ecosystem and why they may be requested.</p>
+  <p class="lead">A plain-language map of the sensitive Android capabilities requested by the ChildGuard supervised-device application within the ParentGuard platform and why they may be needed.</p>
  </div>
 </section>
 
@@ -69,43 +69,43 @@
     <tbody>
      <tr>
       <td><strong>Fine / coarse location</strong></td>
-      <td>Family location</td>
+      <td>Family location sharing</td>
       <td>Coordinates and location metadata</td>
       <td>Requires Android location permission; background operation may require additional Android/Play requirements.</td>
      </tr>
      <tr>
       <td><strong>Background location</strong></td>
-      <td>Continue location service when the UI is not open, where the feature genuinely requires it</td>
+      <td>Continue location service when the app is in the background, where enabled by the parent</td>
       <td>Location updates</td>
-      <td>Must be core to the app's disclosed functionality and meet Google Play requirements.</td>
+      <td>Must be core to disclosed functionality and meet system/policy requirements.</td>
      </tr>
      <tr>
       <td><strong>Microphone</strong></td>
-      <td>Live audio</td>
-      <td>Microphone audio sent to the authorized live connection</td>
-      <td>Requires microphone permission and foreground-service requirements.</td>
+      <td>Live audio check</td>
+      <td>Microphone audio sent to the authorized parent live connection</td>
+      <td>Requires microphone permission and foreground-service notification.</td>
      </tr>
      <tr>
       <td><strong>Camera</strong></td>
-      <td>Live camera</td>
-      <td>Camera video sent to the authorized live connection</td>
-      <td>Requires camera permission and foreground-service requirements.</td>
+      <td>Live camera check</td>
+      <td>Camera video sent to the authorized parent live connection</td>
+      <td>Requires camera permission and foreground-service notification.</td>
      </tr>
      <tr>
       <td><strong>MediaProjection</strong></td>
-      <td>Live screen</td>
-      <td>Screen content transmitted to the authorized live connection</td>
+      <td>Live screen view</td>
+      <td>Screen content transmitted to the authorized parent connection</td>
       <td>Requires Android's system screen-capture authorization.</td>
      </tr>
      <tr>
       <td><strong>Accessibility Service</strong></td>
       <td>Parental device-management actions where implemented</td>
       <td>Accessibility events/actions depending on the declared feature</td>
-      <td>Subject to Android and Google Play Accessibility policy; must not be used to bypass privacy/security controls.</td>
+      <td>Subject to Android Accessibility policies; must not be used to bypass privacy/security controls.</td>
      </tr>
      <tr>
       <td><strong>Usage Access</strong></td>
-      <td>Device activity and parental controls</td>
+      <td>Device activity controls and app insights</td>
       <td>App usage/activity information</td>
       <td>User must grant Android Usage Access in system settings.</td>
      </tr>
@@ -133,9 +133,9 @@
 <section class="section section-alt" aria-labelledby="detail-heading">
  <div class="container prose">
   <h2 id="detail-heading">What is not promised</h2>
-  <p>ChildGuard does not promise unlimited hidden access to a device. Android and Google Play impose technical and policy restrictions. Some capabilities require foreground services, visible system notifications, user authorization or special settings.</p>
+  <p>ParentGuard and ChildGuard do not promise unlimited hidden access to a device. Android and Google Play impose technical and policy restrictions. Some capabilities require foreground services, visible system notifications, user authorization or special settings.</p>
   <h2>Live media and storage</h2>
-  <p>Live audio, camera and screen functionality are not described as permanent recording unless the production backend actually stores the media. If storage is added later, update this page, the privacy policy, Data Safety declarations and in-app disclosures before release.</p>
+  <p>Live audio, camera and screen functionality are not described as permanent recordings unless the production backend actually stores the media. If storage is added later, update this page, the privacy policy, Data Safety declarations and in-app disclosures before release.</p>
  </div>
 </section>
 
@@ -144,12 +144,12 @@
  <div class="container">
   <div class="footer-grid">
    <div>
-    <a class="brand" href="index.html" aria-label="ChildGuard home">
+    <a class="brand" href="index.html" aria-label="ParentGuard home">
      <img class="logo" src="assets/img/parent_controller_logo.png" alt="ParentGuard logo" width="32" height="32" loading="lazy">
-     <span>ChildGuard</span>
+     <span>ParentGuard</span>
     </a>
     <p class="footer-desc">Family-focused device safety and parental controls designed around transparency, consent, and responsible supervision.</p>
-    <p class="footer-contact">Support: <a data-support-email href="#">parentguard.support@gmail.com</a></p>
+    <p class="footer-contact">Support: <a data-support-email href="mailto:parentguard.support@gmail.com">parentguard.support@gmail.com</a></p>
    </div>
    <div>
     <div class="footer-title">Products</div>
@@ -179,8 +179,8 @@
    </div>
   </div>
   <div class="footer-bottom">
-   <span>&copy; <span data-year></span> ChildGuard. All rights reserved.</span>
-   <span>Nadi Darwaja, Kapadvanj, Kheda, Gujarat, India</span>
+   <span>&copy; <span data-year></span> ParentGuard. All rights reserved.</span>
+   <span>Family safety &amp; parental controls</span>
   </div>
  </div>
 </footer>

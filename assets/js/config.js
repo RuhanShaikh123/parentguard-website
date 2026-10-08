@@ -1,6 +1,6 @@
 
 const CONFIG = {
-  brand: "ChildGuard",
+  brand: "ParentGuard",
   supportEmail: "parentguard.support@gmail.com",
   wizardUrl: "https://github.com/RuhanShaikh123/child-controller/releases/download/v1.0.0.0/ParentGuard-Wizard.apk",
   parentPlayUrl: "YOUR_PARENTGUARD_PLAY_STORE_URL_HERE",
