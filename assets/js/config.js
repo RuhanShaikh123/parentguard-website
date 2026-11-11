@@ -2,7 +2,7 @@
 const CONFIG = {
   brand: "ParentGuard",
   supportEmail: "parentguard.support@gmail.com",
-  wizardUrl: "https://github.com/RuhanShaikh123/child-controller/releases/download/v1.0.0.0/ParentGuard-Wizard.apk",
+  wizardUrl: "https://github.com/RuhanShaikh123/parentguard-website/releases/download/v0.0.5/wizard.apk",
   parentPlayUrl: "YOUR_PARENTGUARD_PLAY_STORE_URL_HERE",
   childApkUrl: "https://github.com/RuhanShaikh123/child-controller/releases/download/v1.0.3/ChildController-v1.0.3.apk",
   deletionUrl: "/account-deletion.html"
